@@ -9,10 +9,11 @@ public class GUI extends JFrame {
     public GUI(){
         setSize(800, 800);
         setLocationRelativeTo(null);
-        setTitle("GUI");
+        //setTitle("GUI");
         setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         myPanel = new MyPanel();
         add(myPanel);
+        setTitle("Test Push");
     }
 }
