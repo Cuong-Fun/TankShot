@@ -14,6 +14,6 @@ public class GUI extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         myPanel = new MyPanel();
         add(myPanel);
-        setTitle("Test Push");
+        setTitle("Test Push Push ");
     }
 }
